@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Dock - Development</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <meta name="apple-mobile-web-app-capable" content="no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="no">
+    <meta name="theme-color" content="#000000">
+</head>
+<video autoplay id="webcam" playsinline muted></video>
+<body>
+<div class="top-bar"><span id="clock">12:00</span></div>
+<div id="status-dot" class="indicator-dot"></div>  
+<div class="snap-container">
+    <div class="page">
+        <div class="icon app" id="zen"><img src="icons/zen.png" alt="Zen" height="96px" width="96px"></div>
+        <div class="icon app" id="vscode"><img src="icons/vscode.png" alt="VS Code" height="100px" width="100px"></div>
+        <div class="icon app" id="discord"><img src="icons/discord.png" alt="Discord" height="60px" width="75px"></div>
+        <div class="icon app" id="spotify"><img src="icons/spotify.png" alt="Spotify" height="80x" width="80x"></div>
+        <div class="icon app" id="minecraft"><img src="icons/minecraft.png" alt="Minecraft" height="90px" width="90px"></div>
+        <div class="icon app" id="notion"><img src="icons/notion.png" alt="Notion" height="90px" width="90px"></div>
+        <div class="icon app" id="whatsapp"><img src="icons/whatsapp.png" alt="Whatsapp" height="90px" width="90px"></div>
+        <div class="icon app" id="terminal"><img src="icons/terminal.png" alt="Terminal" height="90px" width="90px"></div>
+    </div>
+    <div class="page">
+        <div class="icon app" id="file"><img src="icons/file.png" alt="File" height="80px" width="80px"></div>
+        <div class="icon app" id="roblox"><img src="icons/roblox.png" alt="Roblox" height="90px" width="90px"></div>
+        <div class="icon app" id="thorium"><img src="icons/thorium.png" alt="Thorium" height="92px" width="92px"></div>
+        <div class="icon macro" id="webcam-button"><img src="icons/webcam.png" alt="Webcam" height="92px" width="92px"></div>
+    </div>
+</div>
+<div class="dots-container">
+    <div class="dot active"></div>
+    <div class="dot"></div>
+</div>
+<div class="shield-left"></div>
+<div class="shield-right"></div>
+</body>
+</html>
+<script src="script.js" defer></script>

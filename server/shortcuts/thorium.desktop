@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Thorium
+Exec=/opt/Thorium/thorium %U
+Terminal=false
+Type=Application
+Icon=thorium
+StartupWMClass=Thorium
+MimeType=application/epub+zip;application/epub+zip;application/epub+zip;application/daisy+zip;application/vnd.readium.lcp.license.v1.0+json;application/audiobook+zip;application/webpub+zip;application/audiobook+lcp;application/audiobook+lcp;application/pdf+lcp;application/vnd.edrlab.thorium+zip;x-scheme-handler/thorium;x-scheme-handler/opds;
+Comment=Desktop application to read ebooks
+Categories=Office;

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=PrismLauncher
+Exec=/home/avishgoyal/Downloads/PrismLauncher-Linux-x86_64.AppImage
+Icon=prismlauncher
+Type=Application
+Categories=Game;
+Terminal=false

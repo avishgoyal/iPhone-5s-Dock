@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Roblox
+Comment=Play Roblox via Sober
+Exec=flatpak run org.vinegarhq.Sober
+Icon=roblox
+Type=Application
+Categories=Game;
+Terminal=false

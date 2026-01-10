@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Files
+Comment=Open Nautilus File Manager
+Exec=nautilus
+Icon=system-file-manager
+Type=Application
+Categories=Utility;FileManager;
+Terminal=false
+
